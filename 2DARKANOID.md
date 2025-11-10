@@ -286,8 +286,8 @@ using UnityEngine;
 
 // Script para la zona inferior de la pantalla (invisible para el jugador)
 
-public class BottomBorder : MonoBehaviour
-{
+    public class BottomBorder : MonoBehaviour
+    {
     // Se llama cuando otro objeto entra en este trigger (debe tener "Is Trigger = true")
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -298,8 +298,8 @@ public class BottomBorder : MonoBehaviour
             GameManager.Instance.LoseLife();
         }
     }
-}
-
+    }
+    
 🔧 Configuración en Unity: 
 
 Crea un GameObject vacío en la parte inferior de la pantalla.
