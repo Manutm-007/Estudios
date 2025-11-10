@@ -285,6 +285,7 @@ BottomBorder.cs
 using UnityEngine;
 
 // Script para la zona inferior de la pantalla (invisible para el jugador)
+
 public class BottomBorder : MonoBehaviour
 {
     // Se llama cuando otro objeto entra en este trigger (debe tener "Is Trigger = true")
@@ -298,6 +299,7 @@ public class BottomBorder : MonoBehaviour
         }
     }
 }
+
 🔧 Configuración en Unity: 
 
 Crea un GameObject vacío en la parte inferior de la pantalla.
